@@ -18,6 +18,7 @@ struct LocationData: Equatable {
 }
 
 protocol NearbyPlacesViewModel {
+    func viewDidLoad()
     var places: CurrentValueSubject<[PlaceViewData], Never> { get }
     var isFetching: CurrentValueSubject<Bool, Never> { get }
     func fetchMorePlaces()
@@ -41,8 +42,11 @@ class DefaultNearbyPlacesViewModel: NearbyPlacesViewModel {
          locationManager: LocationManager) {
         self.placesService = placesService
         self.locationManager = locationManager
-        startFetchingLocationIfNeeded()
         addObservers()
+    }
+    
+    func viewDidLoad() {
+        startFetchingLocationIfNeeded()
     }
     
     private func startFetchingLocationIfNeeded() {
@@ -71,14 +75,16 @@ class DefaultNearbyPlacesViewModel: NearbyPlacesViewModel {
         isFetching.value = true
         placesService.fetchVenues(data: .init(count: 10, page: currentPage + 1, lat: locationData.lat, lon: locationData.lon)) { [weak self] result in
             guard let self else { return }
-            self.isFetching.value = false
-            switch result {
-            case .success(let data):
-                self.currentPage += 1
-                self.places.value += data.map { $0.getViewData() }
-            case .failure(let error):
-                // TODO: Handle error
-                print(error)
+            DispatchQueue.main.async {
+                self.isFetching.value = false
+                switch result {
+                case .success(let data):
+                    self.currentPage += 1
+                    self.places.value += data.map { $0.getViewData() }
+                case .failure(let error):
+                    // TODO: Handle error
+                    print(error)
+                }
             }
         }
     }

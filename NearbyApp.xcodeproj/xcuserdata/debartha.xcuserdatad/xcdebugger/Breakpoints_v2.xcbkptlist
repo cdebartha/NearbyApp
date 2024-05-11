@@ -8,19 +8,19 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NearbyApp/NearbyPlacesViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "72"
-            endingLineNumber = "72"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "fetchMorePlaces()"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2 - c34d87ae2620a446"
+                  uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2 - c34d87ae2620a4ca"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -30,12 +30,27 @@
                   urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
-                  offsetFromSymbolStart = "204">
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "260">
                </Location>
                <Location
-                  uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2 - 2238815ce8f37584"
+                  uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2 - c34d87ae2620a4ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;NearbyApp.PlacesData&gt;, NearbyApp.PlacesError&gt;) -&gt; () in NearbyApp.DefaultNearbyPlacesViewModel.fetchMorePlaces() -&gt; ()"
+                  moduleName = "NearbyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "308">
+               </Location>
+               <Location
+                  uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2 - 2238815ce8f37508"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -45,12 +60,12 @@
                   urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
                   offsetFromSymbolStart = "304">
                </Location>
                <Location
-                  uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2 - c34d87ae2620a446"
+                  uuid = "5CE8E436-AE38-4172-8B24-F48EC36507B2 - c34d87ae2620a4ca"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -60,8 +75,8 @@
                   urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "72"
-                  endingLineNumber = "72"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
                   offsetFromSymbolStart = "112">
                </Location>
             </Locations>
@@ -77,10 +92,42 @@
             filePath = "NearbyApp/NearbyPlacesViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "52"
-            endingLineNumber = "52"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "startFetchingLocationIfNeeded()"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1C77C27-950D-49BB-9D63-600C7953376A - abaa33214e06c55f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (NearbyApp.LocationError) -&gt; () in NearbyApp.DefaultNearbyPlacesViewModel.startFetchingLocationIfNeeded() -&gt; ()"
+                  moduleName = "NearbyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "E1C77C27-950D-49BB-9D63-600C7953376A - e1b6aab81b3d90c6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Double, Swift.Double) -&gt; () in NearbyApp.DefaultNearbyPlacesViewModel.startFetchingLocationIfNeeded() -&gt; ()"
+                  moduleName = "NearbyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "224">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -93,8 +140,8 @@
             filePath = "NearbyApp/NearbyPlacesViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "startFetchingLocationIfNeeded()"
             landmarkType = "7">
             <Locations>
@@ -241,6 +288,86 @@
             endingLineNumber = "65"
             landmarkName = "locationManager(_:didUpdateLocations:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3E99EE1B-69B3-41C7-871C-AA786DA0199B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearbyApp/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B199B537-F46F-4B40-ABE9-899D4F19A9A0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearbyApp/NearbyPlacesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "addObservers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D9F88CBF-0EEF-4574-AD1A-D3531C9E0F51"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearbyApp/NearbyPlacesViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "fetchMorePlaces()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D9F88CBF-0EEF-4574-AD1A-D3531C9E0F51 - c34d87ae2620ab4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;NearbyApp.PlacesData&gt;, NearbyApp.PlacesError&gt;) -&gt; () in NearbyApp.DefaultNearbyPlacesViewModel.fetchMorePlaces() -&gt; ()"
+                  moduleName = "NearbyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "D9F88CBF-0EEF-4574-AD1A-D3531C9E0F51 - c34d87ae2620ab4e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Swift.Array&lt;NearbyApp.PlacesData&gt;, NearbyApp.PlacesError&gt;) -&gt; () in NearbyApp.DefaultNearbyPlacesViewModel.fetchMorePlaces() -&gt; ()"
+                  moduleName = "NearbyApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/debartha/Documents/iOS%20Projects/NearbyApp/NearbyApp/NearbyPlacesViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "80"
+                  endingLineNumber = "80"
+                  offsetFromSymbolStart = "308">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

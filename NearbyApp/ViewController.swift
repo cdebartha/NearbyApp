@@ -27,6 +27,7 @@ class ViewController: UIViewController {
         
         setupTableView()
         addObservers()
+        viewModel.viewDidLoad()
     }
     
     private func setupTableView() {
@@ -59,7 +60,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        if indexPath.row == viewModel.places.value.count {
+        if viewModel.isFetching.value, indexPath.row == viewModel.places.value.count {
             cell.textLabel?.text = "Loading"
         } else {
             cell.textLabel?.text = viewModel.places.value[indexPath.row].name
